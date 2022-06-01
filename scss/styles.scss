@@ -1,0 +1,30 @@
+//superpoderes de sass
+//nesting
+
+@import "utilities/variables";
+
+header{
+    background-color: $color-principal;
+    padding: $medida-secundaria;
+    margin: $medida-principal;
+
+    h1{
+        color: $color-secundario;
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    nav{
+        margin: $medida-principal;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+            }
+        }
+    }
+}
+
+    

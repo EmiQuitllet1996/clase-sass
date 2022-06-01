@@ -1,0 +1,16 @@
+header {
+  background-color: violet;
+  padding: 15px;
+  margin: 10px; }
+  header h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center; }
+  header nav {
+    margin: 10px; }
+    header nav ul {
+      display: flex;
+      justify-content: space-evenly; }
+      header nav ul li {
+        list-style: none; }
